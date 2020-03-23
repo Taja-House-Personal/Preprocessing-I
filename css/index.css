@@ -135,4 +135,25 @@ table {
 html,
 body {
   height: 100%;
+  padding: 0% 4%;
+}
+.intro-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(128, 255, 191, 0.8);
+}
+.intro-section .selfie {
+  width: 10%;
+  height: 30vh;
+}
+.intro-section .intro-info {
+  flex-direction: column;
+  width: 30%;
+}
+.intro-section h1 {
+  font-family: 'Bellota', cursive;
+  font-size: 5rem;
+}
+.intro-section h2 {
+  font-size: 2rem;
 }
